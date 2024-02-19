@@ -1,0 +1,29 @@
+.user_container{
+    margin: 10px;
+    height: 100px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(7, 7, 77);
+}
+.delete_btn{
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 5px 20px;
+}
+.delete_btn:hover{
+    color: white;
+    background-color: rgb(7, 7, 77);
+}
